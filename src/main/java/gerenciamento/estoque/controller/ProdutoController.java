@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * Controlador para gerenciar operações de produtos.
+ */
 @RestController
 @RequestMapping("/produtos")
 public class ProdutoController {

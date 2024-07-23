@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Serviço para gerenciar produtos.
+ */
 @Service
 public class ProdutoService {
     private final ProdutoRepository produtoRepository;

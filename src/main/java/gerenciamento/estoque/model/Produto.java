@@ -5,6 +5,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+/**
+ * Entidade que representa um produto no estoque.
+ */
 @Entity
 public class Produto {
     @Id

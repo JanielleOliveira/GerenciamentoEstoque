@@ -2,6 +2,10 @@ package gerenciamento.estoque.strategy;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Implementação da estratégia de desconto por categoria.
+ */
+
 @Component
 public class DescontoPorCategoria implements DescontoStrategy {
     @Override
